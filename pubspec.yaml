@@ -1,0 +1,34 @@
+name: sembast_poc
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_slidable: ^0.6.0
+  cupertino_icons: ^1.0.2
+  image_picker: ^0.7.4
+  flushbar: ^1.10.4
+
+  # Date and internationalization
+  datetime_picker_formfield: ^2.0.0
+  intl: ^0.17.0
+  flutter_localizations:
+    sdk: flutter
+
+  # Database
+  path_provider: ^2.0.1
+  sembast: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
